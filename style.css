@@ -271,6 +271,7 @@ footer a {
         width: 95%; /* Изображения книг занимают 95% ширины контейнера */
         height: auto; /* Высота автоматически подстраивается под ширину */
     }
+    
     .burger {
         display: block;
         position: relative;
