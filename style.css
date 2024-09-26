@@ -284,7 +284,7 @@ footer a {
     .burger span{
         position:absolute;
         width: 30px;
-        left: Spx;
+        left: 5px;
         height: 3px;
         background-color:Black;
         bottom: 20px;
