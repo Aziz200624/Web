@@ -14,6 +14,16 @@
     margin: 0; /* Убирает внешний отступ у списка */
 }
 
+.navbar img {
+    border-radius: 50%;
+}
+
+.navbar img:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 10px 7px -6px rgb(43, 79, 133);
+    border: solid 2px rgb(43, 79, 133);
+}
+
 .navbar ul li {
     display: flex; /* Устанавливает каждый элемент списка (li) как flex-контейнер для его содержимого */
     margin-right: 10px; /* Добавляет отступ справа у каждого элемента списка */
@@ -335,13 +345,13 @@ footer a {
         transform: translateX(100%);
         transition: 0.7s ease-in-out;
     }
-    .navbar.open .burger span:nth-child(1) {
+    .navbar.open div .burger span:nth-child(1) {
         transform: translateY(0) rotate(45deg);
     }
-    .navbar.open .burger span:nth-child(2) {
+    .navbar.open div .burger span:nth-child(2) {
         opacity: 0;
     }
-    .navbar.open .burger span:nth-child(3) {
+    .navbar.open div .burger span:nth-child(3) {
         transform: translateY(0) rotate(-45deg);
     }
     
