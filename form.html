@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class = "navbar open">
+    <img src = "./public/football.jpg" width = 60 height = 60 alt = "logo">  
+        <ul>
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "video.html">Video</a></li>
+            <li><a href = "audio.html">Music</a></li>
+            <li><a href = "book.html">Book</a></li>
+        </ul>
+        <div><a href = "https://ku.edu.kz/">Entry</a>
+            <div class = "burger" id = "burger2">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <main class = "form">
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for = "name">Name</label>
+                <input id = "name" name = "new_name" placeholder = "Name" type = "text" required/>
+                <label for = "surname">Surname</label>
+                <input id = "surname" name = "new_surname" placeholder = "Surname" type = "text" required/>
+                <label for = "age">Age</label>
+                <input id = "age" name = "new_age" placeholder = "18" type = "number" required/>
+                <label for = "adress">Adress</label>
+                <input id = "adress" name = "new_adress" type = "text"/>
+                <label for = "phone">Phone number</label>
+                <input id = "phone" name = "new_phone" type = "tel"/>
+                <label for = "email">Email</label>
+                <input id = "email" name = "new_email" type = "email"/>
+            </fieldset>
+
+            <fieldset>
+                <legend>Education Information</legend>
+                <label for = "faculty">Faculty</label>
+                <input id = "faculty" name = "new_faculty" type = "text"/>
+                <label for = "group">Group</label>
+                <input id = "group" name = "new_group" type = "text" required/>
+                <label for = "order">Date of enrollment order</label>
+                <input id = "order" name = "new_order" type = "date"/>
+            </fieldset>
+            <button type = "submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+
+        <a href = "https://www.instagram.com/iamabduaziz"><img src = "./public/inst.jpg" width = 90 height = 80></a>
+    </footer>
+    <script src="./js/scrypt.js"></script>
+</body>
+</html>

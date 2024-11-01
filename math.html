@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class = "navbar open">
+    <img src = "./public/football.jpg" width = 60 height = 60 alt = "logo">  
+        <ul>
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "video.html">Video</a></li>
+            <li><a href = "audio.html">Music</a></li>
+            <li><a href = "book.html">Book</a></li>
+        </ul>
+        <div><a href = "https://ku.edu.kz/">Entry</a>
+            <div class = "burger" id = "burger2">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <main class = "math"> <!-- Assign class math to main element -->
+        <form> <!-- Create a form for the user to fill in -->
+            <fieldset> <!-- Set the fields inside the form -->
+                <legend>Calculation</legend> <!-- The name of the form -->
+                <div class = "counters"> <!-- Create labels and input fields -->
+                    <div>
+                        <label for = "first">First<br>number</label>
+                        <input type = "number" id = "first" name = "first" placeholder = "0"> <!-- First input field -->
+                    </div>
+                    <div>
+                        <label for = "second">Second<br>number</label>
+                        <input type = "number" id = "second" name = "second" placeholder = "0"> <!-- Second input field -->
+                    </div>
+                </div>
+                <div class = "butcont"> <!-- Create buttons for mathematical operations -->
+                    <button id = "butplus">+</button>
+                    <button id = "butminus">-</button>
+                    <button id = "butmult">*</button>
+                    <button id = "butdiv">/</button>
+                </div>
+                <p><span id = "result">0</span></p> <!-- The element where the result is printed -->
+            </fieldset>
+            <fieldset>
+                <div class = "counters"> <!-- Create labels and input fields -->
+                    <div>
+                        <label for = "variable">Variable</label>
+                        <input type = "number" id = "variable" name = "variable" placeholder = "0"> <!-- First input field -->
+                    </div>
+                    <div>
+                        <label>Value</label>
+                        <p><span id = "value">0</span></p>
+                    </div>
+                </div>
+                <div class = "butcont"> <!-- Create buttons for trigonometric operations -->
+                    <button id = "butcos">cos()</button>
+                    <button id = "butsin">sin()</button>
+                    <button id = "buttg">tg()</button>
+                    <button id = "butctg">ctg()</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        
+        <a href = "https://www.instagram.com/iamabduaziz"><img src = "./public/inst.jpg" width = 90 height = 80></a>
+    </footer>
+    <script src="./js/scrypt.js"></script>
+</body>
+</html>
