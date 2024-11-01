@@ -56,6 +56,26 @@
     border-radius: 20%; /* Скругляет углы div при наведении курсора */
 }
 
+.navbar ul .work {
+    display: flex;
+    z-index: 10;
+}
+
+.navbar ul .work ul {
+    flex-direction: column; /* Arrange children in a column */
+    position: absolute; /* Position the dropdown menu absolutely relative to its nearest positioned ancestor */
+    left: 0; /* Align the left edge of the dropdown with the parent */
+    top: 100%; /* Position the top of the dropdown just below the parent */
+    width: 100px; /* Set a fixed width for the dropdown */
+    padding: 0; /* Remove default padding */
+    display: none;
+}
+
+.navbar ul .work:hover ul {
+    display: block;
+    z-index: 20;
+}
+
 /* Контейнер с элементами, использующий Flexbox для адаптивного размещения */
 .container {
     display: flex;
@@ -86,7 +106,7 @@
 
 /* Фон для всей страницы */
 body {
-    background-color: #faf7f7; /* Светло-серый фон */
+    background-color: rgb(44, 48, 255);
 }
 
 /* Фон для основного содержимого страницы */
@@ -474,7 +494,7 @@ footer a {
         height: auto;
         top: 68px;
         left: -40%;
-        z-index:2;
+        z-index: 2;
     }
         
     .navbar ul li {
