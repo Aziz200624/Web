@@ -1,3 +1,14 @@
+.lottie {
+	border: none;
+	max-width: 200px;
+	max-height:50px;
+}
+
+.lottie1 {
+    border: none;
+    margin-left: 39%;
+}
+
 .navbar {
     display: flex; /* Устанавливает контейнер .navbar как flex-контейнер, 
     позволяя его дочерним элементам располагаться в одной линии */
